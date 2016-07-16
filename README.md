@@ -17,13 +17,12 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 7. Clone [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles)
-8. Clone [DiyahM/dotfiles](https://github.com/thoughtbot/dotfiles)
 9. Install rcm
 ```
 brew tap thoughtbot/formulae
 brew install rcm
 ```
-10. Clone [DiyahM/dotfiles](https://github.com/thoughtbot/dotfiles)
+10. Clone [DiyahM/dotfiles](https://github.com/DiyahM/dotfiles)
 11. Install dotfiles
 ```
 env RCRC=$HOME/github.com/DiyahM/dotfiles/rcrc rcup
